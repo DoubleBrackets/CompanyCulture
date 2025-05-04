@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4c42b3258cf7ebb4c8a7c1ae27a1d96c
+guid: ee976a6582fae78498995005f22ced31
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1208040086343421634
-    second: image_0
+      213: 9083737108977809928
+    second: WhiteGirl2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: image_0
+      name: WhiteGirl2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1278
-        height: 846
+        width: 4288
+        height: 2848
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ce8eecde02d3c010800000000000000
-      internalID: 1208040086343421634
+      spriteID: 80af7add5caef0e70800000000000000
+      internalID: 9083737108977809928
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      image_0: 1208040086343421634
+      WhiteGirl2_0: 9083737108977809928
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

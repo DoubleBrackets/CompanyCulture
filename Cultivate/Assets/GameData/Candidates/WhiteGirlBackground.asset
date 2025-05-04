@@ -10,13 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 934041dc1aa70c144b63c28f5851de58, type: 3}
-  m_Name: Sar
+  m_Name: WhiteGirlBackground
   m_EditorClassIdentifier: 
-  <Name>k__BackingField: Sar
+  <Name>k__BackingField: Elle
   <PersuasionPortrait>k__BackingField: {fileID: 0}
   <DetailedInformationPrefab>k__BackingField: {fileID: 7249405264063616792, guid: 8e6189ec14df97d42bbee20419e546c9, type: 3}
-  <ExamineDesktopPrefab>k__BackingField: {fileID: 6227640092272905682, guid: 69b9ba72ac33975408ebb2df7b7d6e31, type: 3}
-  <CorrectPersuasionWords>k__BackingField: 
-  <WrongPersuasionWords>k__BackingField: 
+  <ExamineDesktopPrefab>k__BackingField: {fileID: 2010879823425634385, guid: 5daa3cbe844f28348a3db5fb10733072, type: 3}
+  <CorrectPersuasionWords>k__BackingField: 'Is your mother doing alright?
+
+    You
+    deserve better...
+
+    It was your friends'' fault.'
+  <WrongPersuasionWords>k__BackingField: 'Is your father healthy?
+
+    Your sister
+    misses you'
   <CorrectPersuasionsToPass>k__BackingField: 5
   <WrongPersuasionsToFail>k__BackingField: 5
