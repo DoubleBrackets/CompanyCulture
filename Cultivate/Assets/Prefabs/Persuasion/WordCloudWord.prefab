@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1294609775649818820}
   - component: {fileID: 2003628316482451082}
   - component: {fileID: 8144205304281335315}
+  - component: {fileID: 8266867555441111276}
   m_Layer: 5
   m_Name: WordCloudWord
   m_TagString: Untagged
@@ -32,7 +33,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5879071954348281686}
+  - {fileID: 5223847414716457273}
   - {fileID: 8976024950696241741}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -72,7 +73,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1697519352449843046}
+      - m_Target: {fileID: 1382545836039349523}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -112,7 +113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _textMeshPro: {fileID: 4445808586106050821}
-  _textTransform: {fileID: 5879071954348281686}
+  _textTransform: {fileID: 5223847414716457273}
 --- !u!114 &2003628316482451082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,6 +143,34 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8266867555441111276}
+          m_TargetAssemblyTypeName: Shake, Assembly-CSharp
+          m_MethodName: DoShake
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 6907713409037503912}
+          m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+          m_MethodName: SetAsLastSibling
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!114 &8144205304281335315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,8 +183,113 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf219fb25b22274498740cc66e7f487f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _referenceRectTransform: {fileID: 5879071954348281686}
+  _referenceRectTransform: {fileID: 5223847414716457273}
   _targetParticle: {fileID: 4014927886116918694}
+--- !u!114 &8266867555441111276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247583317708606551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81393d8ed8e1e1546900b75a0266550a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _targetTransform: {fileID: 5223847414716457273}
+  _shakeTypes: 2
+  _translationShakeConfig:
+    _duration: 0.15
+    _strength: {x: 0.5, y: 0.5, z: 0}
+    _vibrato: 15
+    _fadeOut: 1
+  _rotationShakeConfig:
+    _duration: 0.15
+    _strength: {x: 0, y: 0, z: 6}
+    _vibrato: 10
+    _fadeOut: 1
+  _scaleShakeConfig:
+    _duration: 0
+    _strength: {x: 0, y: 0, z: 15}
+    _vibrato: 0
+    _fadeOut: 0
+--- !u!1 &1382545836039349523
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5223847414716457273}
+  - component: {fileID: 474612369417268755}
+  - component: {fileID: 5472788025303274072}
+  m_Layer: 5
+  m_Name: Strip
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5223847414716457273
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382545836039349523}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5879071954348281686}
+  m_Father: {fileID: 6907713409037503912}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 50, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &474612369417268755
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382545836039349523}
+  m_CullTransparentMesh: 1
+--- !u!114 &5472788025303274072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382545836039349523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.5137255}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &1697519352449843046
 GameObject:
   m_ObjectHideFlags: 0
@@ -181,17 +315,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1697519352449843046}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6907713409037503912}
+  m_Father: {fileID: 5223847414716457273}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6227903677504853057
 CanvasRenderer:
@@ -223,15 +357,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Word Cloud
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a412e31197285d44988b2b6832a5a238, type: 2}
-  m_sharedMaterial: {fileID: -9156853372606702214, guid: a412e31197285d44988b2b6832a5a238, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 62ca23e5f15302843b87e7cf517841ba, type: 2}
+  m_sharedMaterial: {fileID: -7301661078794169927, guid: 5d86f74928d9d3645a262dac3cc4a66e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -248,8 +382,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.25
-  m_fontSizeBase: 0.25
+  m_fontSize: 0.4
+  m_fontSizeBase: 0.4
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -412,7 +546,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 1.25
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -583,8 +717,8 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.15
-      minScalar: 0.05
+      scalar: 0.25
+      minScalar: 0.1
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -1276,7 +1410,7 @@ ParticleSystem:
       countCurve:
         serializedVersion: 2
         minMaxState: 0
-        scalar: 50
+        scalar: 75
         minScalar: 30
         maxCurve:
           serializedVersion: 2

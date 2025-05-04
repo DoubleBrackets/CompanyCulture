@@ -561,8 +561,28 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7507178693081664086, guid: 6fe1a011fa26f9445b2e0dc9feb71e01, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7507178693081664086, guid: 6fe1a011fa26f9445b2e0dc9feb71e01, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7507178693081664086, guid: 6fe1a011fa26f9445b2e0dc9feb71e01, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7507178693081664086, guid: 6fe1a011fa26f9445b2e0dc9feb71e01, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7852043724732547247, guid: 6fe1a011fa26f9445b2e0dc9feb71e01, type: 3}
       propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7852043724732547247, guid: 6fe1a011fa26f9445b2e0dc9feb71e01, type: 3}
+      propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9186267471671597920, guid: 6fe1a011fa26f9445b2e0dc9feb71e01, type: 3}
@@ -653,8 +673,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Back
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 50aabea413fc635408d30f81c0a6b904, type: 2}
-  m_sharedMaterial: {fileID: -9156853372606702214, guid: 50aabea413fc635408d30f81c0a6b904, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5d86f74928d9d3645a262dac3cc4a66e, type: 2}
+  m_sharedMaterial: {fileID: -7301661078794169927, guid: 5d86f74928d9d3645a262dac3cc4a66e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -684,7 +704,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535

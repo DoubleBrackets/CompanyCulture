@@ -21,16 +21,28 @@ PrefabInstance:
       value: 65278
       objectReference: {fileID: 0}
     - target: {fileID: 4014927886116918694, guid: b9cdf9266a416dc428baa5edf7e3c981, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key0.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014927886116918694, guid: b9cdf9266a416dc428baa5edf7e3c981, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key0.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014927886116918694, guid: b9cdf9266a416dc428baa5edf7e3c981, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key0.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014927886116918694, guid: b9cdf9266a416dc428baa5edf7e3c981, type: 3}
       propertyPath: ColorModule.gradient.maxGradient.key1.b
-      value: 0.49411762
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4014927886116918694, guid: b9cdf9266a416dc428baa5edf7e3c981, type: 3}
       propertyPath: ColorModule.gradient.maxGradient.key1.g
-      value: 0.9761515
+      value: 0.10213809
       objectReference: {fileID: 0}
     - target: {fileID: 4014927886116918694, guid: b9cdf9266a416dc428baa5edf7e3c981, type: 3}
       propertyPath: ColorModule.gradient.maxGradient.key1.r
-      value: 1
+      value: 0.35220122
       objectReference: {fileID: 0}
     - target: {fileID: 4014927886116918694, guid: b9cdf9266a416dc428baa5edf7e3c981, type: 3}
       propertyPath: ColorModule.gradient.maxGradient.m_ColorSpace

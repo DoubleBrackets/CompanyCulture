@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TravelerBackground
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Andrew
-  <PersuasionPortrait>k__BackingField: {fileID: 0}
+  <PersuasionPortrait>k__BackingField: {fileID: 8438889857764878005, guid: a3ce192b9abae0f45a2a420ae5bd30ed, type: 3}
   <DetailedInformationPrefab>k__BackingField: {fileID: 7249405264063616792, guid: 8e6189ec14df97d42bbee20419e546c9, type: 3}
   <ExamineDesktopPrefab>k__BackingField: {fileID: 2010879823425634385, guid: 7f734d6aece1dda4a83331ab116528e2, type: 3}
   <CorrectPersuasionWords>k__BackingField: 'Game jam crashout
@@ -21,7 +21,11 @@ MonoBehaviour:
     Ur game has so
     many bugs
 
-    Peanuts are so salty'
+    Peanuts are so salty
+
+    Rocks
+
+    Rocks2'
   <WrongPersuasionWords>k__BackingField: 'Ur GPA Sucks
 
     Are u broke

@@ -276,7 +276,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 64b5987faa7733749add86d38e295b61, type: 2}
     - target: {fileID: 5421676879872773364, guid: 0caf0dbb2f36ba342a4169842f607522, type: 3}
       propertyPath: m_Name
-      value: CandidateAndrew
+      value: Traveler
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -445,7 +445,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Examine
+  m_text: Understand
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a412e31197285d44988b2b6832a5a238, type: 2}
   m_sharedMaterial: {fileID: -9156853372606702214, guid: a412e31197285d44988b2b6832a5a238, type: 2}
@@ -847,7 +847,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: e8ce6d0d11d41a74683d17b7f41846eb, type: 2}
     - target: {fileID: 5421676879872773364, guid: 0caf0dbb2f36ba342a4169842f607522, type: 3}
       propertyPath: m_Name
-      value: CandidateElle
+      value: WhiteGirl
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1153,9 +1153,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _candidates:
-  - {fileID: 1956959863}
-  - {fileID: 991417218}
   - {fileID: 891361611}
+  - {fileID: 991417218}
+  - {fileID: 1956959863}
   _gameState: {fileID: 11400000, guid: aca7456c302323e4b99924f209f04a16, type: 2}
   _examineSceneName: DetailsScene
   _persuasionSceneName: PersuasionScene
@@ -1443,7 +1443,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 2dba08eabbd48fc4fb24da531bea6d86, type: 2}
     - target: {fileID: 5421676879872773364, guid: 0caf0dbb2f36ba342a4169842f607522, type: 3}
       propertyPath: m_Name
-      value: CandidateSar
+      value: MiddleAge
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1670,7 +1670,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Reach out
+  m_text: Talk
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a412e31197285d44988b2b6832a5a238, type: 2}
   m_sharedMaterial: {fileID: -9156853372606702214, guid: a412e31197285d44988b2b6832a5a238, type: 2}

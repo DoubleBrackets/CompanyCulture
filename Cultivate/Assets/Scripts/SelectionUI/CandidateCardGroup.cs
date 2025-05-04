@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Gameplay;
 using Managers;
 using NaughtyAttributes;
 using UnityEngine;
@@ -36,6 +37,16 @@ namespace SelectionUI
             {
                 candidate.OnCardSelectedEvent.AddListener(OnCardSelected);
                 candidate.OnCardDeselectedEvent.AddListener(OnCardDeselected);
+
+                CandidateSO candidateSO = candidate.Candidate;
+                if (!_gameState.CandidateStatuses.ContainsKey(candidateSO))
+                {
+                    _gameState.SetStatus(candidateSO, GameStateSO.CandidateStatusType.Available);
+                }
+
+                candidate.SetStatus(_gameState.CandidateStatuses[candidateSO].status);
+
+                Debug.Log("Adding candidate to game state: " + candidateSO.name);
             }
         }
 
