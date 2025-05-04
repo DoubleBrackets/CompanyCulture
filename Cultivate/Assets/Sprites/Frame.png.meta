@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: e6360872b5c06d84396763afc058bebd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6947528933004095209
+    second: ComputerFrame_0
+  - first:
+      213: -7208435769629834982
+    second: ComputerFrame_1
+  - first:
+      213: 5549215515459033465
+    second: ComputerFrame_2
+  - first:
+      213: -8601854043654317696
+    second: ComputerFrame_3
+  - first:
+      213: -5355892554940713799
+    second: ComputerFrame_4
+  - first:
+      213: 4277724857086442190
+    second: ComputerFrame_5
+  - first:
+      213: -5188743734101249121
+    second: ComputerFrame_6
+  - first:
+      213: 8815705690786730274
+    second: ComputerFrame_7
+  - first:
+      213: -7456168474148125979
+    second: ComputerFrame_8
+  - first:
+      213: 3180161084725331972
+    second: ComputerFrame_9
+  - first:
+      213: 5431206281625140918
+    second: ComputerFrame_10
+  - first:
+      213: 2700070261229604047
+    second: ComputerFrame_11
+  - first:
+      213: 3643594400075439714
+    second: ComputerFrame_12
+  - first:
+      213: 5939033615019657039
+    second: ComputerFrame_13
+  - first:
+      213: 6674613152129188734
+    second: ComputerFrame_14
+  - first:
+      213: 2609380117745117777
+    second: ComputerFrame_15
+  - first:
+      213: 9074673323451989573
+    second: ComputerFrame_16
+  - first:
+      213: 3320008177470425595
+    second: ComputerFrame_17
+  - first:
+      213: 6754806209945162649
+    second: ComputerFrame_18
+  - first:
+      213: 4362548302146858138
+    second: ComputerFrame_19
+  - first:
+      213: 4972160765614606258
+    second: ComputerFrame_20
+  - first:
+      213: -4763885916787764603
+    second: ComputerFrame_21
+  - first:
+      213: -4145894639863485922
+    second: ComputerFrame_22
+  - first:
+      213: 6426804341227967725
+    second: ComputerFrame_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ComputerFrame_0
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 0
+        width: 2577
+        height: 2848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 711da89be3b659f90800000000000000
+      internalID: -6947528933004095209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComputerFrame_1
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 339
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a118ef40cdd76fb90800000000000000
+      internalID: -7208435769629834982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComputerFrame_2
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 340
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979950d3c16c20d40800000000000000
+      internalID: 5549215515459033465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComputerFrame_3
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 338
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0891a36625310a880800000000000000
+      internalID: -8601854043654317696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComputerFrame_4
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 338
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b47997191c0ca5b0800000000000000
+      internalID: -5355892554940713799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComputerFrame_5
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 334
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecafe79d7188d5b30800000000000000
+      internalID: 4277724857086442190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComputerFrame_6
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 337
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f937c52a011edf7b0800000000000000
+      internalID: -5188743734101249121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComputerFrame_7
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 334
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2219bbf3e9da75a70800000000000000
+      internalID: 8815705690786730274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComputerFrame_8
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 334
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e24fe8f64e568890800000000000000
+      internalID: -7456168474148125979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComputerFrame_9
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 335
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 408039748a3322c20800000000000000
+      internalID: 3180161084725331972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComputerFrame_10
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 334
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bef22e56558f5b40800000000000000
+      internalID: 5431206281625140918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComputerFrame_11
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 332
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcccf25d893987520800000000000000
+      internalID: 2700070261229604047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComputerFrame_12
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 333
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e59126dc5a09230800000000000000
+      internalID: 3643594400075439714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComputerFrame_13
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 332
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47c9544b9fab6250800000000000000
+      internalID: 5939033615019657039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComputerFrame_14
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 330
+        width: 34
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e738fc95c4df0ac50800000000000000
+      internalID: 6674613152129188734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComputerFrame_15
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 331
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a2a2a5461663420800000000000000
+      internalID: 2609380117745117777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComputerFrame_16
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 295
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54eb119de47bfed70800000000000000
+      internalID: 9074673323451989573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComputerFrame_17
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 291
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf94485e8d9031e20800000000000000
+      internalID: 3320008177470425595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComputerFrame_18
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 290
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993526e9574edbd50800000000000000
+      internalID: 6754806209945162649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComputerFrame_19
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 288
+        width: 33
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c62f82192ea8c30800000000000000
+      internalID: 4362548302146858138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComputerFrame_20
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 288
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7c7986fd9a00540800000000000000
+      internalID: 4972160765614606258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComputerFrame_21
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 288
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5821163bff643edb0800000000000000
+      internalID: -4763885916787764603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComputerFrame_22
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 289
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1aadba7ac2d676c0800000000000000
+      internalID: -4145894639863485922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComputerFrame_23
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 286
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de4d4d76f78903950800000000000000
+      internalID: 6426804341227967725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ComputerFrame_0: -6947528933004095209
+      ComputerFrame_1: -7208435769629834982
+      ComputerFrame_10: 5431206281625140918
+      ComputerFrame_11: 2700070261229604047
+      ComputerFrame_12: 3643594400075439714
+      ComputerFrame_13: 5939033615019657039
+      ComputerFrame_14: 6674613152129188734
+      ComputerFrame_15: 2609380117745117777
+      ComputerFrame_16: 9074673323451989573
+      ComputerFrame_17: 3320008177470425595
+      ComputerFrame_18: 6754806209945162649
+      ComputerFrame_19: 4362548302146858138
+      ComputerFrame_2: 5549215515459033465
+      ComputerFrame_20: 4972160765614606258
+      ComputerFrame_21: -4763885916787764603
+      ComputerFrame_22: -4145894639863485922
+      ComputerFrame_23: 6426804341227967725
+      ComputerFrame_3: -8601854043654317696
+      ComputerFrame_4: -5355892554940713799
+      ComputerFrame_5: 4277724857086442190
+      ComputerFrame_6: -5188743734101249121
+      ComputerFrame_7: 8815705690786730274
+      ComputerFrame_8: -7456168474148125979
+      ComputerFrame_9: 3180161084725331972
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
