@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86f9199afc8c9034ebe90eafff462f28, type: 3}
   m_Name: GameStateSO
   m_EditorClassIdentifier: 
-  <ExaminedCandidate>k__BackingField: {fileID: 11400000, guid: e8ce6d0d11d41a74683d17b7f41846eb, type: 2}
+  <ExaminedCandidate>k__BackingField: {fileID: 11400000, guid: 2dba08eabbd48fc4fb24da531bea6d86, type: 2}
+  <PersuadingCandidate>k__BackingField: {fileID: 11400000, guid: e8ce6d0d11d41a74683d17b7f41846eb, type: 2}

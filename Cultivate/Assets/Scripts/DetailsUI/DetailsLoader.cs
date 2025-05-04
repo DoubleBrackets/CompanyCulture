@@ -30,7 +30,7 @@ namespace DetailsUI
                 return;
             }
 
-            GameObject detailsPrefab = _gameStateSO.ExaminedCandidate.DetailsPrefab;
+            GameObject detailsPrefab = _gameStateSO.ExaminedCandidate.DetailedInformationPrefab;
             if (detailsPrefab == null)
             {
                 Debug.LogError("DetailsPrefab is not set in ExaminedCandidate.");

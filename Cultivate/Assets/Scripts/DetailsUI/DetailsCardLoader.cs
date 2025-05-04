@@ -1,6 +1,7 @@
 using Managers;
 using SelectionUI;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace DetailsUI
 {
@@ -12,12 +13,13 @@ namespace DetailsUI
         [SerializeField]
         private GameStateSO _gameStateSO;
 
+        [FormerlySerializedAs("_candidateCard")]
         [SerializeField]
-        private CandidateCard _candidateCard;
+        private CandidateSelectionZone candidateSelectionZone;
 
         private void Awake()
         {
-            _candidateCard.Initialize(_gameStateSO.ExaminedCandidate);
+            // _candidateCard.Initialize(_gameStateSO.ExaminedCandidate);
         }
     }
 }

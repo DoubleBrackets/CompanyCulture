@@ -367,7 +367,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -1484,7 +1484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55a26bb1bbe59f84f87602ada49c8f4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _sceneName: 2. SelectionScene
+  _sceneName: SelectionScene
 --- !u!1 &1795771270
 GameObject:
   m_ObjectHideFlags: 0
@@ -1788,17 +1788,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 517216551744363957, guid: 3d7d49f91f865794e9d0f1a382164b30, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -10
-      objectReference: {fileID: 0}
     - target: {fileID: 3196769418536893618, guid: 3d7d49f91f865794e9d0f1a382164b30, type: 3}
       propertyPath: m_Name
       value: CameraSystem
-      objectReference: {fileID: 0}
-    - target: {fileID: 5653602750476010300, guid: 3d7d49f91f865794e9d0f1a382164b30, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 6090348594818164877, guid: 3d7d49f91f865794e9d0f1a382164b30, type: 3}
       propertyPath: m_LocalPosition.x

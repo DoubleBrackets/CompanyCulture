@@ -8,5 +8,8 @@ namespace Managers
     {
         [field: SerializeField]
         public CandidateSO ExaminedCandidate { get; set; }
+
+        [field: SerializeField]
+        public CandidateSO PersuadingCandidate { get; set; }
     }
 }
