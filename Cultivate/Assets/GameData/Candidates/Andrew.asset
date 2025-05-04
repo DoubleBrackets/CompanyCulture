@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Andrew
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Andrew
-  <Portrait>k__BackingField: {fileID: 21300000, guid: e1d26946844aad44986d9e56f291676a, type: 3}
-  <DetailsPrefab>k__BackingField: {fileID: 7249405264063616792, guid: 8e6189ec14df97d42bbee20419e546c9, type: 3}
+  <PersuasionPortrait>k__BackingField: {fileID: 0}
+  <DetailedInformationPrefab>k__BackingField: {fileID: 7249405264063616792, guid: 8e6189ec14df97d42bbee20419e546c9, type: 3}
+  <ExamineDesktopPrefab>k__BackingField: {fileID: 6227640092272905682, guid: 69b9ba72ac33975408ebb2df7b7d6e31, type: 3}
   <CorrectPersuasionWords>k__BackingField: 'Game jam crashout
 
     Ur game has so

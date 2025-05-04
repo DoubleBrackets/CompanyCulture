@@ -1,4 +1,6 @@
+using Gameplay;
 using Managers;
+using PopupUI;
 using UnityEngine;
 
 namespace DetailsUI
@@ -9,7 +11,10 @@ namespace DetailsUI
         private GameStateSO _gameStateSO;
 
         [SerializeField]
-        private Transform _detailsContainer;
+        private Transform _backgroundContainer;
+
+        [SerializeField]
+        private PopupWindow _defaultPopupWindow;
 
         private void Awake()
         {
@@ -24,20 +29,23 @@ namespace DetailsUI
 
         private void LoadDetails()
         {
-            if (_gameStateSO.ExaminedCandidate == null)
+            CandidateSO examinedCandidate = _gameStateSO.ExaminedCandidate;
+            if (examinedCandidate == null)
             {
                 Debug.LogError("ExaminedCandidate is not set in GameStateSO.");
                 return;
             }
 
-            GameObject detailsPrefab = _gameStateSO.ExaminedCandidate.DetailedInformationPrefab;
+            GameObject detailsPrefab = examinedCandidate.DetailedInformationPrefab;
             if (detailsPrefab == null)
             {
                 Debug.LogError("DetailsPrefab is not set in ExaminedCandidate.");
                 return;
             }
 
-            GameObject detailsInstance = Instantiate(detailsPrefab, _detailsContainer);
+            _defaultPopupWindow.InstantiateContent(detailsPrefab);
+
+            Instantiate(examinedCandidate.ExamineDesktopPrefab, _backgroundContainer);
         }
     }
 }

@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Sar
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Sar
-  <Portrait>k__BackingField: {fileID: 21300000, guid: 02c083f08affe0848ad3f15823be02a7, type: 3}
-  <DetailsPrefab>k__BackingField: {fileID: 7249405264063616792, guid: 8e6189ec14df97d42bbee20419e546c9, type: 3}
+  <PersuasionPortrait>k__BackingField: {fileID: 0}
+  <DetailedInformationPrefab>k__BackingField: {fileID: 7249405264063616792, guid: 8e6189ec14df97d42bbee20419e546c9, type: 3}
+  <ExamineDesktopPrefab>k__BackingField: {fileID: 6227640092272905682, guid: 69b9ba72ac33975408ebb2df7b7d6e31, type: 3}
   <CorrectPersuasionWords>k__BackingField: 
   <WrongPersuasionWords>k__BackingField: 
   <CorrectPersuasionsToPass>k__BackingField: 5
