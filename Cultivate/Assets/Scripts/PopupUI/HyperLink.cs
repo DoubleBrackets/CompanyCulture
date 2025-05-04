@@ -15,6 +15,8 @@ namespace PopupUI
 
         public event Action OnClicked;
 
+        private PopupWindow _parentPopupWindow;
+
         private void OnDrawGizmos()
         {
             if (_popupWindow == null)
@@ -34,7 +36,7 @@ namespace PopupUI
 
         public void Initialize(PopupWindow popupWindow)
         {
-            _popupWindow = popupWindow;
+            _parentPopupWindow = popupWindow;
         }
 
         public void OpenPopup()
@@ -49,8 +51,8 @@ namespace PopupUI
             OnClicked?.Invoke();
 
             // Instantiate the popup window prefab
-            PopupWindow popupInstance = Instantiate(_popupWindow, _popupWindow.transform.parent);
-            popupInstance.SetPosition(_popupWindow.Position + (Vector3)_openedWindowOffset);
+            PopupWindow popupInstance = Instantiate(_popupWindow, _parentPopupWindow.transform.parent);
+            popupInstance.SetPosition(_parentPopupWindow.Position + (Vector3)_openedWindowOffset);
         }
     }
 }

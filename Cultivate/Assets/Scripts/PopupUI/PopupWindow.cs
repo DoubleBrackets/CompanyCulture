@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using NaughtyAttributes;
 using UnityEngine;
 
 namespace PopupUI
@@ -7,23 +6,17 @@ namespace PopupUI
     public class PopupWindow : MonoBehaviour
     {
         [SerializeField]
-        private List<HyperLink> _hyperLinks;
-
-        [SerializeField]
         private Transform _contentTransform;
 
         public Vector3 Position => transform.position;
+        private List<HyperLink> _hyperLinks;
 
         private bool _isDragging;
         private Vector2 _draggingOffset;
 
         private void Awake()
         {
-            foreach (HyperLink link in _hyperLinks)
-            {
-                link.Initialize(this);
-                link.OnClicked += HandleOnClicked;
-            }
+            SetupHyperlinks();
         }
 
         private void Update()
@@ -40,10 +33,7 @@ namespace PopupUI
 
         private void OnDestroy()
         {
-            foreach (HyperLink link in _hyperLinks)
-            {
-                link.OnClicked -= HandleOnClicked;
-            }
+            CleanupHyperlinks();
         }
 
         private void HandleOnClicked()
@@ -67,12 +57,6 @@ namespace PopupUI
                 _draggingOffset = (Vector2)transform.position - (Vector2)mousePosition;
                 GetFocus();
             }
-        }
-
-        [Button("Detect Hyperlinks")]
-        private void DetectHyperlinks()
-        {
-            _hyperLinks = new List<HyperLink>(GetComponentsInChildren<HyperLink>());
         }
 
         public void SetPosition(Vector3 position)
@@ -106,6 +90,31 @@ namespace PopupUI
             }
 
             GameObject contentInstance = Instantiate(contentPrefab, _contentTransform);
+
+            // Search for all HyperLink components in the content
+            CleanupHyperlinks();
+            SetupHyperlinks();
+        }
+
+        private void SetupHyperlinks()
+        {
+            _hyperLinks = new List<HyperLink>(GetComponentsInChildren<HyperLink>());
+
+            foreach (HyperLink link in _hyperLinks)
+            {
+                link.Initialize(this);
+                link.OnClicked += HandleOnClicked;
+            }
+        }
+
+        private void CleanupHyperlinks()
+        {
+            foreach (HyperLink link in _hyperLinks)
+            {
+                link.OnClicked -= HandleOnClicked;
+            }
+
+            _hyperLinks.Clear();
         }
     }
 }
