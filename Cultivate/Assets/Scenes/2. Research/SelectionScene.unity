@@ -1428,6 +1428,51 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 106221121421960921, guid: 0caf0dbb2f36ba342a4169842f607522, type: 3}
   m_PrefabInstance: {fileID: 1501712796}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1861570139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1861570141}
+  - component: {fileID: 1861570140}
+  m_Layer: 0
+  m_Name: NotepadToggle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1861570140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861570139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4ebc8ac003f5f047a1c951c306ef6b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isActive: 1
+--- !u!4 &1861570141
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861570139}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1956959863 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4640744172972715592, guid: 0caf0dbb2f36ba342a4169842f607522, type: 3}
@@ -1818,6 +1863,7 @@ SceneRoots:
   - {fileID: 937064786}
   - {fileID: 3796898699143069734}
   - {fileID: 1338608337}
+  - {fileID: 1861570141}
   - {fileID: 130089956}
   - {fileID: 970429990}
   - {fileID: 452601206}

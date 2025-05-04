@@ -358,7 +358,7 @@ MonoBehaviour:
     DefaultMode: 2
   DefaultBlend:
     Style: 1
-    Time: 0.45
+    Time: 0.4
     CustomCurve:
       serializedVersion: 2
       m_Curve: []

@@ -6,6 +6,8 @@ namespace Notepad
 {
     public class NotepadUI : MonoBehaviour
     {
+        public static NotepadUI Instance;
+
         [SerializeField]
         private Transform _closedPosition;
 
@@ -31,6 +33,13 @@ namespace Notepad
 
         private void Awake()
         {
+            if (Instance != null)
+            {
+                Destroy(gameObject);
+                return;
+            }
+
+            Instance = this;
             _notepadTransform.position = _closedPosition.position;
         }
 
@@ -101,6 +110,11 @@ namespace Notepad
         {
             target.position = source.position;
             target.rotation = source.rotation;
+        }
+
+        public void SetNotepadActive(bool isActive)
+        {
+            gameObject.SetActive(isActive);
         }
     }
 }
