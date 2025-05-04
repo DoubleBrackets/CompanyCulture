@@ -28,6 +28,12 @@ namespace Persuasion
         [SerializeField]
         private Transform _wordSpawnTransform;
 
+        [SerializeField]
+        private float _minDist;
+
+        [SerializeField]
+        private float _rotationRandomRange;
+
         public UnityEvent OnRightWordSelected => _onRightWordSelected;
         public UnityEvent OnWrongWordSelected => _onWrongWordSelected;
 
@@ -50,6 +56,7 @@ namespace Persuasion
                 WordCloudWord wordCloudWord = Instantiate(_correctWordPrefab, _wordSpawnTransform);
                 wordCloudWord.Initialize(GetRandomPosition(), word);
                 wordCloudWord.OnWordSelectedEvent.AddListener(CorrectWordSelected);
+                wordCloudWord.transform.rotation = GetRandomRotation();
                 _correctWordClouds.Add(wordCloudWord);
             }
 
@@ -58,15 +65,43 @@ namespace Persuasion
                 WordCloudWord wordCloudWord = Instantiate(_incorrectWordPrefab, _wordSpawnTransform);
                 wordCloudWord.Initialize(GetRandomPosition(), word);
                 wordCloudWord.OnWordSelectedEvent.AddListener(IncorrectWordSelected);
+                wordCloudWord.transform.rotation = GetRandomRotation();
                 _incorrectWordClouds.Add(wordCloudWord);
             }
         }
 
+        private Quaternion GetRandomRotation()
+        {
+            float randomZ = Random.Range(-_rotationRandomRange, _rotationRandomRange);
+            return Quaternion.Euler(0, 0, randomZ);
+        }
+
         private Vector2 GetRandomPosition()
         {
-            float x = Random.Range(_wordSpawnLowerBound.x, _wordSpawnUpperBound.x);
-            float y = Random.Range(_wordSpawnLowerBound.y, _wordSpawnUpperBound.y);
-            return new Vector2(x, y);
+            Vector2 position = Vector2.zero;
+            for (var i = 0; i < 50; i++)
+            {
+                float x = Random.Range(_wordSpawnLowerBound.x, _wordSpawnUpperBound.x);
+                float y = Random.Range(_wordSpawnLowerBound.y, _wordSpawnUpperBound.y);
+
+                position = new Vector2(x, y);
+                var isTooClose = false;
+                foreach (WordCloudWord word in _correctWordClouds)
+                {
+                    if (Vector2.Distance(word.transform.position, position) < _minDist)
+                    {
+                        isTooClose = true;
+                        break;
+                    }
+                }
+
+                if (!isTooClose)
+                {
+                    return position;
+                }
+            }
+
+            return position;
         }
 
         private void CorrectWordSelected(WordCloudWord word)

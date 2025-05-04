@@ -505,8 +505,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: I was alone but now it's all okay
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a412e31197285d44988b2b6832a5a238, type: 2}
-  m_sharedMaterial: {fileID: -9156853372606702214, guid: a412e31197285d44988b2b6832a5a238, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5d86f74928d9d3645a262dac3cc4a66e, type: 2}
+  m_sharedMaterial: {fileID: -7301661078794169927, guid: 5d86f74928d9d3645a262dac3cc4a66e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

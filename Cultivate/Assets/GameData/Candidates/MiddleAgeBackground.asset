@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MiddleAgeBackground
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Sar
-  <PersuasionPortrait>k__BackingField: {fileID: 0}
+  <PersuasionPortrait>k__BackingField: {fileID: 8438889857764878005, guid: c541c4afd88c180458dd5e8bc9055b85, type: 3}
   <DetailedInformationPrefab>k__BackingField: {fileID: 7249405264063616792, guid: 8e6189ec14df97d42bbee20419e546c9, type: 3}
   <ExamineDesktopPrefab>k__BackingField: {fileID: 2010879823425634385, guid: 61f5aa3feb390ba4abd4a53ebf7e5a33, type: 3}
   <CorrectPersuasionWords>k__BackingField: 

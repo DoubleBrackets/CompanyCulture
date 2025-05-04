@@ -1,5 +1,6 @@
 using Dev;
 using Gameplay;
+using Managers;
 using NaughtyAttributes;
 using UnityEngine;
 using UnityEngine.Events;
@@ -20,6 +21,10 @@ namespace SelectionUI
         [SerializeField]
         private CandidateSO _candidate;
 
+        public UnityEvent OnSetFailed;
+
+        public UnityEvent OnSetPersuaded;
+
         public CandidateSO Candidate => _candidate;
 
         public UnityEvent<CandidateSelectionZone> OnCardSelectedEvent => _onCardSelected;
@@ -27,6 +32,8 @@ namespace SelectionUI
 
         [ShowNonSerializedField]
         private bool _isSelected;
+
+        private bool _selectable = true;
 
         private void OnDrawGizmos()
         {
@@ -47,6 +54,12 @@ namespace SelectionUI
 
         public void SelectCard()
         {
+            if (!_selectable)
+            {
+                Debug.Log($"Card {name} is not selectable");
+                return;
+            }
+
             Debug.Log($"Card {name} seleced");
             _onCardSelected?.Invoke(this);
             _isSelected = true;
@@ -70,6 +83,20 @@ namespace SelectionUI
             {
                 SelectCard();
             }
+        }
+
+        public void SetStatus(GameStateSO.CandidateStatusType status)
+        {
+            if (status == GameStateSO.CandidateStatusType.Failed)
+            {
+                OnSetFailed?.Invoke();
+            }
+            else if (status == GameStateSO.CandidateStatusType.Persuaded)
+            {
+                OnSetPersuaded?.Invoke();
+            }
+
+            _selectable = status == GameStateSO.CandidateStatusType.Available;
         }
     }
 }
