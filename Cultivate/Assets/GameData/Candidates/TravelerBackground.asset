@@ -16,20 +16,11 @@ MonoBehaviour:
   <PersuasionPortrait>k__BackingField: {fileID: 8438889857764878005, guid: a3ce192b9abae0f45a2a420ae5bd30ed, type: 3}
   <DetailedInformationPrefab>k__BackingField: {fileID: 7249405264063616792, guid: 8e6189ec14df97d42bbee20419e546c9, type: 3}
   <ExamineDesktopPrefab>k__BackingField: {fileID: 2010879823425634385, guid: 7f734d6aece1dda4a83331ab116528e2, type: 3}
-  <CorrectPersuasionWords>k__BackingField: 'Game jam crashout
-
-    Ur game has so
-    many bugs
-
-    Peanuts are so salty
-
-    Rocks
-
-    Rocks2'
-  <WrongPersuasionWords>k__BackingField: 'Ur GPA Sucks
-
-    Are u broke
-
-    No gf'
-  <CorrectPersuasionsToPass>k__BackingField: 5
-  <WrongPersuasionsToFail>k__BackingField: 5
+  <CorrectPersuasionWords>k__BackingField: "Free flights for life!\r\nThere\u2019s
+    this cool program for exploring global religions\r\nYou ended things for this?\r\nYour
+    sister sent you letters\u2026\r\nHave you thought about marriage?\r\nYour sister\r\nAdventure\r\nMalcom\r\nOpportunity\r\n"
+  <WrongPersuasionWords>k__BackingField: "We think you\u2019d be a great fit for
+    this job\r\nYour parents\r\nStability\r\nMoney\r\nYour parents miss you\r\nIsn\u2019t
+    your boss upset about all your days off?\r\n"
+  <CorrectPersuasionsToPass>k__BackingField: 7
+  <WrongPersuasionsToFail>k__BackingField: 4
