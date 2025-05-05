@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: GameStateSO
   m_EditorClassIdentifier: 
   <ExaminedCandidate>k__BackingField: {fileID: 11400000, guid: e8ce6d0d11d41a74683d17b7f41846eb, type: 2}
-  <PersuadingCandidate>k__BackingField: {fileID: 11400000, guid: e8ce6d0d11d41a74683d17b7f41846eb, type: 2}
+  <PersuadingCandidate>k__BackingField: {fileID: 11400000, guid: 2dba08eabbd48fc4fb24da531bea6d86, type: 2}

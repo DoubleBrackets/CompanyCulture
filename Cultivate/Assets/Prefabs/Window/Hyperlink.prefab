@@ -51,7 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d90e91e998de314c9ea58da2e682b25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _openedWindowOffset: {x: 1, y: 1}
+  _openedWindowOffset: {x: -2, y: -1}
   _popupWindow: {fileID: 0}
 --- !u!114 &615361642398216630
 MonoBehaviour:

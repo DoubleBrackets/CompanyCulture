@@ -22,15 +22,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4014927886116918694, guid: b9cdf9266a416dc428baa5edf7e3c981, type: 3}
       propertyPath: ColorModule.gradient.maxGradient.key1.b
-      value: 0.57861626
+      value: 0.007935121
       objectReference: {fileID: 0}
     - target: {fileID: 4014927886116918694, guid: b9cdf9266a416dc428baa5edf7e3c981, type: 3}
       propertyPath: ColorModule.gradient.maxGradient.key1.g
-      value: 0.57861626
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4014927886116918694, guid: b9cdf9266a416dc428baa5edf7e3c981, type: 3}
       propertyPath: ColorModule.gradient.maxGradient.key1.r
-      value: 0.57861626
+      value: 0.46540874
       objectReference: {fileID: 0}
     - target: {fileID: 4014927886116918694, guid: b9cdf9266a416dc428baa5edf7e3c981, type: 3}
       propertyPath: ColorModule.gradient.maxGradient.m_ColorSpace
