@@ -357,8 +357,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Word Cloud
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 62ca23e5f15302843b87e7cf517841ba, type: 2}
-  m_sharedMaterial: {fileID: -7301661078794169927, guid: 5d86f74928d9d3645a262dac3cc4a66e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a5eafda3a46eaa04f97592722d9f634c, type: 2}
+  m_sharedMaterial: {fileID: -7301661078794169927, guid: a5eafda3a46eaa04f97592722d9f634c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

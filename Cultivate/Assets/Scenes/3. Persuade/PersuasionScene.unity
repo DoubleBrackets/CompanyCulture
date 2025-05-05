@@ -579,10 +579,10 @@ MonoBehaviour:
   _onWrongWordSelected:
     m_PersistentCalls:
       m_Calls: []
-  _wordSpawnLowerBound: {x: -7, y: -4}
+  _wordSpawnLowerBound: {x: -7, y: -3.5}
   _wordSpawnUpperBound: {x: 7, y: 4}
   _wordSpawnTransform: {fileID: 431343409}
-  _minDist: 0.15
+  _minDist: 0.2
   _rotationRandomRange: 10
 --- !u!114 &1258814553
 MonoBehaviour:
