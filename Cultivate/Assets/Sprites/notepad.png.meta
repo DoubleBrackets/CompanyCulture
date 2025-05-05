@@ -198,6 +198,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -984,7 +997,42 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      notepad_0: -7850268201462607866
+      notepad_1: -2787413583541618007
+      notepad_10: 1277653457647882913
+      notepad_11: 2887751791262433987
+      notepad_12: -3776812192650178458
+      notepad_13: 6920814054246935997
+      notepad_14: 4663360191183221875
+      notepad_15: 3494860153224718531
+      notepad_16: -3153461969005043521
+      notepad_17: 2205093015270661885
+      notepad_18: -3999671334053578921
+      notepad_19: 1610242687963938803
+      notepad_2: 5310310941978095719
+      notepad_20: 5374551701344716515
+      notepad_21: -8301896502506972796
+      notepad_22: 266578758606355996
+      notepad_23: -5062029018547429632
+      notepad_24: 7608096712886212591
+      notepad_25: 8362382697407204022
+      notepad_26: 609408246584193580
+      notepad_27: 6746013808305577234
+      notepad_28: -7174862517177169193
+      notepad_29: 8313178594471308599
+      notepad_3: -8440446142090871027
+      notepad_30: -3795480038949588196
+      notepad_31: 7892674578673854476
+      notepad_32: -2997196081613423549
+      notepad_33: -7940381726633771090
+      notepad_34: -5269318569135000534
+      notepad_4: -1986601259068775209
+      notepad_5: -3562882256463553325
+      notepad_6: 5228440067066621538
+      notepad_7: 5626204633509312487
+      notepad_8: 346724798900477795
+      notepad_9: 4015164543089270150
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
