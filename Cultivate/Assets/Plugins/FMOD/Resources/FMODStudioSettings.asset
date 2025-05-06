@@ -380,8 +380,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../Cult_FMOD/Cult_FMOD.fspro
-  sourceBankPath: ../Cult_FMOD/Build
+  sourceProjectPath: ../FMOD/FMOD.fspro
+  sourceBankPath: ../FMOD/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1

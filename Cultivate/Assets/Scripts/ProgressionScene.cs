@@ -1,6 +1,7 @@
 using Cysharp.Threading.Tasks;
 using Managers;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class ProgressionScene : MonoBehaviour
 {
@@ -24,6 +25,9 @@ public class ProgressionScene : MonoBehaviour
 
     [SerializeField]
     private GameObject _nextButton;
+
+    [SerializeField]
+    private UnityEvent _onShowNewLine;
 
     private void Start()
     {
@@ -49,10 +53,13 @@ public class ProgressionScene : MonoBehaviour
             {
                 GameObject neutralLine = Instantiate(_neutralLine, _container);
             }
+
+            _onShowNewLine?.Invoke();
         }
 
         await UniTask.Delay((int)(_delay * 2000));
 
+        _onShowNewLine?.Invoke();
         _nextButton.SetActive(true);
     }
 }
