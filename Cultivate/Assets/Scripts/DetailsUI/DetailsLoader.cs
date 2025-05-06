@@ -16,7 +16,7 @@ namespace DetailsUI
         [SerializeField]
         private PopupWindow _defaultPopupWindow;
 
-        private void Awake()
+        private void Start()
         {
             if (_gameStateSO == null)
             {
